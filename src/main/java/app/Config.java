@@ -70,6 +70,7 @@ public class Config {
      * @return GetTopGradeUseCase object.
      */
     public GetTopGradeUseCase getTopGradeUseCase() {
+
         return new GetTopGradeUseCase(gradeDataBase);
     }
 }
